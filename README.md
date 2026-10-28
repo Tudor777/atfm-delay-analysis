@@ -12,9 +12,9 @@ An analysis of Air Traffic Flow Management (ATFM) and Air Traffic Control (ATC) 
 ## Key Findings
 
 1. **Code-89 delay is a small but growing part of pre-departure delay.** In 2025 it was 2–16% of total pre-departure delay at the 11 airports. It rose sharply at London Heathrow (4% in 2020 → 16% in 2025), Athens (4% → 14%) and Amsterdam (7% → 12%). Bucharest had the highest total pre-departure delay (19.8 min per departure in 2025), but only 2% of it was code 89.
-2. **Athens and Amsterdam have the most arrival ATFM delay, for different reasons.** Athens (5.5 min per arrival in 2025) is almost entirely *ATC capacity* and peaks every spring (8.7 min in May). Amsterdam (4.8 min) splits between *weather* and *aerodrome capacity* and is high all year. Across the 11 airports, Friday and Monday are the worst days.
+2. **Athens ATH and Amsterdam AMS have the most arrival ATFM delay, for different reasons.** Athens (5.5 min per arrival in 2025) is almost entirely *ATC capacity* and peaks every spring (8.7 min in May). Amsterdam (4.8 min) splits between *weather* and *aerodrome capacity* and is high all year. Across the 11 airports, Friday and Monday are the worst days.
 3. **Slot adherence drops on bad days because of late take-offs.** About 95–97% of regulated flights take off inside the −5/+10 min slot window. On each airport's worst-delay days, late take-offs more than double (0.9% → 2.2%), with the biggest drops at Rome (−4.3 points), Istanbul (−3.3) and Athens (−2.4).
-4. **Exact delay can't be forecast a week ahead, but risky days can be flagged.** A gradient boosting model did not beat the simple "average of the last 4 weeks" rule at predicting minutes of delay (mean absolute error 1.24 vs 1.20 min per arrival). A classifier for high-delay days (> 2 min per arrival) did better: 87% of the days it flagged were really high-delay days, against 81% for the 4-week average.
+4. **Exact delay can't be forecast a week, but vulnerable days can be identified.** A gradient boosting model did not beat the simple "average of the last 4 weeks" rule at predicting minutes of delay (mean absolute error 1.24 vs 1.20 min per arrival). A classifier for high-delay days (> 2 min per arrival) did better: 87% of the days it flagged were really high-delay days, against 81% for the 4-week average.
 
 ## Data Source
 
