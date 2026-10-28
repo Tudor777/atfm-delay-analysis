@@ -1,6 +1,8 @@
 # European Airports ATFM Delay Analysis (2019–2026)
 
-An analysis of Air Traffic Flow Management (ATFM) and Air Traffic Control (ATC) delays across Europe's busiest airports. This project investigates the root causes of flight delays and visualizes historical traffic trends.
+An analysis of Air Traffic Flow Management (ATFM) and Air Traffic Control (ATC) delays across Europe's busiest airports: Istanbul IST, Amsterdam AMS, London Heathrow LHR, Paris CDG, Frankfurt FRA, Madrid MAD, Barcelona BCN, Munich MUC, Rome FCO, Athens ATH and the busiest Romanian airport, Bucharest OTP. This project investigates the root causes of flight delays and visualises historical traffic trends.
+
+
 
 ## Core Objectives
 
