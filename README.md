@@ -34,9 +34,9 @@ On [ansperformance.eu/data](https://ansperformance.eu/data/), download the **CSV
 | ATC pre-departure delay | `atc_pre_departure_delays_YYYY.csv` | 2019–2026 |
 | ATFM slot adherence | `atfm_slot_adherence_YYYY.csv` | 2016–2026 |
 
-The `.bz2` files are compressed CSVs. **Don't unzip them**: pandas reads them directly.
+The `.bz2` files are compressed CSVs. Don't unzip them, as pandas reads them directly.
 
-EUROCONTROL updates the current year's files regularly, so results for 2026 may differ slightly from those shown here.
+
 
 ### Folder structure
 
